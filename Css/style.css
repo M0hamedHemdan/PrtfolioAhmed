@@ -68,7 +68,7 @@
   }
   .center{
     position: absolute;
-    top: 20%;
+    top: 17%;
     left: 50%;
     transform: translate(-52%, -50%);
     width: 100%;
@@ -81,9 +81,32 @@
     /* background-color: black;  */
     
   }
-  /* @media (max-width: 768px){
-    .imgBac{
-        background-size: cover;
+  @media (max-width: 958px){  
+    .center div h2{
+    font-size: 50px;
+   
+    
+  }
+   .center{
+    position: absolute;
+    top: 9%;
+    
 
-    }
-  } */
+  }
+  }
+  @media (max-width: 500px){  
+    .center div h2{
+    font-size: 28px;
+   
+    
+  }
+  .text-white-sm{
+    color: rgba(255, 255, 255, 0.831);
+  }
+   .center{
+    position: absolute;
+    top: 2%;
+    
+
+  }
+  }
