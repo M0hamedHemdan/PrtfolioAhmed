@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.imgBac{
+    width: 100%;
+    height: 100vh;
+    /* background-color: linear-gradient(rgba(0, 0, 0, 0.959), rgba(0, 0, 0, 0.959)); */
+    background-image:linear-gradient(108deg , rgba(0, 0, 0, 0.169), rgba(0, 0, 0, 0.548)), url('../imges/16.jpeg');
+    
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    
+}
+.textBox{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+     list-style: none;
+     font-weight: bold;
+     padding-left: 0px;
+ }
+ .myfoto img{
+  cursor: pointer;
+ }
+  .wrappepe{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.7);
+  }
+ .wrappepe div{
+    width: 50%;
+    height: 90vh;
+    margin: auto;
+    background-image: url('../imges/1.JPG');
+    background-size: cover;
+    background-position: center;
+    
+ }
+ #clear{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    color: white;
+    cursor: pointer;
+    margin: 5px;
+    z-index: 1000;
+ }
+ #arrowRight{
+      cursor: pointer;
+      position: relative;
+      left: 80px;
+  }
+   #arrowLeft{
+      cursor: pointer;
+      position: relative;
+      right: 80px;
+  }
+  .center{
+    position: absolute;
+    top: 17%;
+    left: 50%;
+    transform: translate(-52%, -50%);
+    width: 100%;
+
+  }
+  .center div h2{
+    font-size: 100px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.432);
+    /* background-color: black;  */
+    
+  }
+
+  .portfolio-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  @media (max-width: 958px){  
+    .center div h2{
+    font-size: 50px;
+   
+    
+  }
+   .center{
+    position: absolute;
+    top: 9%;
+    
+
+  }
+  }
+  @media (max-width: 500px){  
+    .center div h2{
+    font-size: 28px;
+   
+    
+  }
+  .text-white-sm{
+    color: rgba(255, 255, 255, 0.831);
+  }
+   .center{
+    position: absolute;
+    top: 2%;
+    
+
+  }
+  }
